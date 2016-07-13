@@ -9,8 +9,8 @@ virtualenv env
 . env/bin/activate      # Active your env
 ```
 ### Install library
-```
-pip install ipython jupyter numpy scikit-learn
+``` 
+pip install ipython jupyter numpy scikit-learn scipy sklearn
 ```
 ### Start notebook
 ```jupyter notebook```
