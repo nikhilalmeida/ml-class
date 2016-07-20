@@ -10,7 +10,7 @@ def readFile(path):
     return data
 
 def get_rfg_result(training_data, test_data, output):
-    rfg_model = RandomForestRegressor()                           # Initializing the model
+    rfg_model = RandomForestRegressor(n_estimators=20)                           # Initializing the model
     print("################# Training the model  ######################")
     rfg_model.fit(training_data[:,0:6], training_data[:,-1])      # Training the model
     print("################# Getting predictions ######################")
